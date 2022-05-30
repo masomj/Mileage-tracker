@@ -1,0 +1,32 @@
+#login-form{
+    margin:auto auto;
+    width:75%;
+    text-align: center;
+}
+body{
+    background-color: white;
+}
+.submit{
+    margin:0.5rem;
+}
+
+.headings{
+    border-bottom: 1px solid black;
+    margin:auto auto;
+    margin-bottom: 4px;
+    width: fit-content;
+    
+}
+.input-table{
+    
+    padding:0.5rem;
+    width:fit-content;
+    border:4px solid black;
+    border-radius: 4px;
+    text-align: center;
+    margin:auto auto;
+    margin-top:1rem;
+    
+
+}
+
