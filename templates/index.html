@@ -5,20 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log in!</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
     <div id="login-form">
 
-        <h1 class="headings">Log in</h1>
-        <form action="POST">
-            <label>Username:<label>
-            <input type="radio" id="cu18" name="cu18" value="CU18XRG">
-            <input type="radio" id="cv20" name="cv20" value="CV20FBU">
-            <button id="userSubmit">Submit</button>
-        </form>
+        <h1 class="headings">Select Vehicle</h1>
+      
+            <a href="{{ url_for('cu18') }}"><button id="CU18">CU18XRG</button></a>
+            <a href="{{ url_for('cv20') }}"><button id="CV20">CV20FBU</button></a>
        
     </div>
 </body>
-<script src="scriptIndex.js"></script>
 </html>
